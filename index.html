@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator-project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="calculator" class="calculator">
+    <div class="calculator-top">
+      <button id="clear" class="clear" data-key="67">C</button>
+      <div id="viewer" class="viewer">0</div>
+    </div>
+    <div>
+      <button class="num" data-num="7" data-key="103">7</button>
+      <button class="num" data-num="8" data-key="104">8</button>
+      <button class="num" data-num="9" data-key="105">9</button>
+      <button data-ops="plus" class="ops" data-key="107">+</button>
+    </div>
+    <div>
+      <button class="num" data-num="4" data-key="100">4</button>
+      <button class="num" data-num="5" data-key="101">5</button>
+      <button class="num" data-num="6" data-key="102">6</button>
+      <button data-ops="minus" class="ops" data-key="109">-</button>
+    </div>
+    <div>
+      <button class="num" data-num="1" data-key="97">1</button>
+      <button class="num" data-num="2" data-key="98">2</button>
+      <button class="num" data-num="3" data-key="99">3</button>
+      <button data-ops="times" class="ops" data-key="106">*</button>
+    </div>
+    <div>
+      <button class="num" data-num="0" data-key="96">0</button>
+      <button class="num" data-num="." data-key="110">.</button>
+      <button id="equals" class="equals" data-result="" data-key="13">=</button>
+      <button data-ops="divided by" class="ops" data-key="111">/</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
